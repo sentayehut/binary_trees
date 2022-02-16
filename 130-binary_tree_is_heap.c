@@ -1,5 +1,5 @@
 #include "binary_trees.h"
-#include <stdbool.h>
+
 /**
  * binary_tree_size - measures the size of a binary tree
  * @tree: input binary tree
