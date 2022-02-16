@@ -90,10 +90,5 @@ char *convert(unsigned long int num, int base, int lowercase);
 bst_t *swap(bst_t *a, bst_t *b);
 
 size_t _binary_tree_height(const binary_tree_t *tree);
-size_t binary_tree_size(const binary_tree_t *tree);
-_Bool is_complete(const binary_tree_t *tree, unsigned int index, size_t size);
-int binary_tree_is_complete(const binary_tree_t *tree);
-_Bool is_heap(const binary_tree_t *tree);
-int binary_tree_is_heap(const binary_tree_t *tree);
 
 #endif /* BINARY_TREES_H */
